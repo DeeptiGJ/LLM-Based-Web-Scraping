@@ -36,6 +36,14 @@ Place chromedriver in a directory that's in your system's PATH, or specify its p
 
 ### Install required Python libraries:
 
+Following libraries are required for the task as:
+
+•	requests: For making HTTP requests to fetch the web page content.
+
+•	BeautifulSoup: For parsing the HTML content and navigating the document structure to find elements.
+
+•	Selenium: As the website requires real browser interaction (like clicking buttons that trigger JS, or waiting for elements to load dynamically), Selenium is necessary. This launches a real browser (like Chrome) and controls it programmatically.
+
 Open your terminal or command prompt and run:
 
 pip install selenium beautifulsoup4
